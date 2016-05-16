@@ -4,7 +4,7 @@
 	
 	
 	<div id = "leftside" class = "span">
-		<img src="images/motor.png" />
+
 			<input type = "hidden"/>
 	</div>
 		

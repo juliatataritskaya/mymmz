@@ -4,7 +4,7 @@
 	
 	
 	<div id = "rightside" class = "span">
-		
+		<img src="images/motor.png" />
 	</div>
 		
 	</jsp:root>

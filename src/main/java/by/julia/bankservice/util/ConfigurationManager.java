@@ -16,6 +16,7 @@ public class ConfigurationManager {
 	public static final String DB_URL="DATABASE_URL";
 	public static final String ERROR_PAGE_PATH = "ERROR_PAGE_PATH";
 	public static final String ABOUT_US_PAGE_PATH = "ABOUT_US_PAGE_PATH";
+	public static final String PRODUCTS_PAGE_PATH = "PRODUCTS_PAGE_PATH";
 	public static final String AUTHORIZATION_PAGE_PATH = "AUTHORIZATION_PAGE_PATH";
 	public static final String HOME_PAGE = "HOME_PAGE";
 	public static final String CHOOSE_TICKET_WAGON_PAGE = "CHOOSE_TICKET_WAGON_PAGE";
