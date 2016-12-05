@@ -1,383 +1,305 @@
-html {
-	background:url(../images/bg6.jpg) 0 0 repeat ;
+footer {
+    z-index: 1;
+    position: absolute;
+    border: 3px;
+    top: 100%;
+    height: 14%;
+    background-color: #d9edf7;
+    width: 100%;
+
 }
 
-body {
-    color: black;
-    font: 14px Georgian, serif;
-    width:1350px;
-    position:relative;
-    margin: auto;
+footer > h1 {
+    position: relative;
+    top: 35%;
+    text-align: left;
+    color: #122b40;
+    font-size: 20px;
+    font-family: "Monotype Corsiva";
 }
 
-a {
-	text-decoration: none;
- 	color: black;
+footer > h4 {
+    color: #122b40;
+    position: absolute;
+    top: 55%;
+    right: 5%;
+
 }
 
-a:hover {
-	color: red;
-	font-weight: bolder;
+header > h1{
+    position: relative;
+    top: 50px;
+    font-style: italic;
+    color: blue;
+    text-align: center;
+}
+body{
+background-image: url("../recousrce/11.jpg");
+}
+body > h1 {
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+    font-style: italic;
+    text-shadow: 2px 2px 3px blue, 0 0 2em white;
+    color: #122b40 ;
+    text-align: center;
+}
+body > h2{
+    font-family: Aharoni;
+    position: absolute;
+    left: 1%;
+    top: 11%;
+    font-size: 15px;
+
+}
+.modal {
+    height: 100%;
+    width: 80%;
+}
+.modal .modal-dialog{ margin: 0%; }
+
+.news .thumbnail{
+    z-index: 2;
+    top: 40%;
+    right: 1%;
+    position: fixed;
+
 }
 
-a.act {
-	color: blue;
+.news-2 .thumbnail{
+    z-index: 2;
+    top: 70%;
+    right: 1%;
+    position: fixed;
+
+}
+.news-text{
+    position: fixed;
+    font-size: 20px;
+    font-style: italic;
+    text-shadow: 2px 2px 3px blue, 0 0 2em white;
+    color: #122b40 ;
+    top: 33%;
+    right: 7%;
+
+}
+
+.no > h2{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    right: 5%;
+    color: #122b40;
+    font-size: 21px;
+    font-family: "Monotype Corsiva";
+
+}
+
+.no > p{
+    position: absolute;
+    top: 34%;
+    left: 5%;
+    right: 5%;
+    color: #122b40;
+    font-size: 16px;
+    font-family:Aharoni;
+
+}
+.no > video{
+    position: absolute;
+    top:52%;
+    right: 40%;
+}
+
+.nt > h3{
+    position: absolute;
+    top: 13%;
+    right: 33%;
+    color:#ac2925;
+    font-size: 30px;
+    font-family:Arial;
+
+}
+
+.nt > h1{
+    position: absolute;
+    top: 21%;
+    left: 5%;
+    right: 5%;
+    color: #122b40;
+    font-size: 21px;
+    font-family: "Monotype Corsiva";
+}
+
+.nt > p {
+    position: absolute;
+    top: 34%;
+    left: 5%;
+    right: 5%;
+    color: #122b40;
+    font-size: 16px;
+    font-family:Aharoni;
+}
+
+.nt > img {
+    position: absolute;
+    top:57%;
+    right: 15%;
+    height: 40%;
+    width: 70%;
+
+}
+
+.categ{
+    position: fixed;
+    top: 20%;
+    left: 5%;
+}
+
+.info{
+    position: absolute;
+    left: 20%;
+    right: 20%;
+}
+
+.info > h2{
+    text-align: center;
+}
+
+.info > h1{
+    color:#2b542c;
+    font-size: 25px;
+    font-family:Batang;
+}
+
+.info > li {
+    font-size: 20px;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.rus{
+    position: absolute;
+    top: 23%;
+    right: 1%;
+}
+
+.eng{
+    position: absolute;
+    top: 23%;
+    right: 4.5%;
+}
+
+.oao{
+    position: absolute;
+    top:20%;
+    left: 5%;
+}
+
+.aut{
+    top: 22%;
+    right: 4%;
+    position: absolute;
+}
+
+.verh > h4{
+    position: absolute;
+    font-size: 25px;
+    font-style: italic;
+    text-shadow: 2px 2px 3px blue, 0 0 2em white;
+    color: #122b40 ;
+    top: 16%;
+    right: 47%;
+}
+.info1{
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    left: 5%;
+    font-size: 15px;
+}
+
+.nis > h2{
+    position: absolute;
+    font-size: 20px;
+    font-style: italic;
+    text-shadow: 2px 2px 3px yellow, 0 0 2em black;
+    color: #122b40 ;
+    top: 55%;
+    right: 30%;
+}
+
+.info2{
+    position: absolute;
+    top: 65%;
+    right: 5%;
+    left: 5%;
+    font-size: 15px;
 }
 
 
-div.row {
-	margin-bottom: 20px; 
+.prod-text{
+    top:20%;
+    position: absolute;
 }
 
-div.span{
-	float:left;
+.contact > h3{
+    position: absolute;
+    font-size: 25px;
+    font-style: italic;
+    text-shadow: 2px 2px 3px blue, 0 0 2em white;
+    color: #122b40 ;
+    top: 14%;
+    right: 47%;
 }
 
-div.span1 {
-	float: right;
+.cont-text{
+    font-size: 25px;
+    font-family: "Bodoni MT";
+    top:25%;
+    right: 20%;
+    position: absolute;
 }
 
-header.header {
-	width: 1150px;
-	margin-left: 100px;
+.map1{
+    top: 10%;
+    left:3%;
+    position: relative;
 }
 
-div.language {
-	display: block;
-	float: left;
-	height: auto;
-	width: 50px;
-	padding: 0 10px 0 10px;
+.otstup{
+    margin-top:30px;
 }
 
-#notify {
-	text-decoration: underline;
-	height: auto;
-	width: 250px;
-	padding: 0 10px 0 10px;
+/* Fade Slider CSS */
+.carousel .item {
+    -webkit-transition: 0.7s ease-in-out opacity;
+    -moz-transition: 0.7s ease-in-out opacity;
+    -o-transition: 0.7s ease-in-out opacity;
+    transition: 0.7s ease-in-out opacity;
+    left: 0 !important;
+}
+.carousel .next.left,
+.carousel .prev.right {
+    opacity: 1;
+    z-index: 1;
+}
+.carousel .active.left,
+.carousel .active.right {
+    opacity: 0;
+    z-index: 2;
+}
+.carousel .carousel-control {
+    z-index: 1000;
+    outline:none;
 }
 
-#notify li {
-	display: block;
-	float: left;
-	height: 40px;
-	line-height: 26px;
-	list-style: none outside none;
-}
-
-#menu {
-	width:1150px;
-    margin-left: 350px;
-}
-
-#menu li {
-	border:2px solid #666;
-	border-radius:10px;
-	display: block;
-	float: left;
-	height: 26px;
-	min-width: 90px;
-	padding: 5px 5px 5px 5px;
-	text-align: center;
-	margin-right:10px;
-	line-height: 26px;
-	list-style: none outside none;
-	font-size: 16px;
-}
-#menu li form {
-	margin-bottom:0;
-}
-li.adminMenu{
-	float: right;
-	display: block;
-	padding: 5px;
-	margin-right:50px;
-	line-height: auto;
-	list-style: none outside none;
-}
-li.separator {
-	height: 40;
-	padding: 0 5px 0 5px;
-}
-
-#logo {
-	padding: 0 20px 0 20px;
-	height: auto;
-	width: 180px;
-}
-
-#adminLogo {
-	padding: 0 20px 0 20px;
-	height: auto;
-	width: 180px;
-}
-
-#name {
-	padding: 30px 30px 30px 30px;
-	height: auto;
-	width: 430px;
-	text-align: center;
-	font-size: 26px;
-}
-
-#contacts {
-	padding: 10px 20px 10px 20px;
-	height: auto;
-	width: 180px;
-}
-
-#phone {
-	font-size: 18px;
-	color: red;
-}
-
-#clock {
-	padding-top: 10px;
-	font-size: 12px;
-}
-
-#mail {
-	padding-top: 10px;
-	font-size: 12px;
-}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-	width: 175px;
-}
-
-table.loginForm {
-	width: 310px;
-	color: black;
-	float: none;
-	border: 2px solid black;
-	align: middle;
-	cellpadding: 0;
-	cellspacing: 0;
-	padding: 50px 150px 0 0;
-	margin: 40px 90px;
-	
-}
-
-td.loginForm1 {
-	width: 80px;
-	padding: 10px 10px 10px 10px;
-}
-
-td.loginForm2 {
-	width: 100px;
-	padding: 10px 10px 10px 10px;
-}
-
-#cart {
-	text-decoration: underline;
-	font-size: 16px;
-}
-
-div.class1 {
-	text-align: center;
-	font-size: 12px;
-}
-
-div.class2 {
-	text-align: left;
-	font-size: 12px;
-}
-
-
-#leftside {
-	background:url(../images/mmz.png) 0 0 no-repeat;
-	width: 373px;
-	height: 287px;
-	margin: 0;
-	padding: 0;
-}
-
-#leftside1 {
-	width: 150px;
-	position: fixed;
-	bottom: 10px;
-	left: 50px;
-}
-
-div.middle {
-	width: 650px;
-	overflow: auto;
-	padding-left: 10px;
-	float: left;
-}
-
-#registration {
-	float: left;
-	font-size: 10px;
-	width: 105px;
-	padding: 0 5px 0 5px;
-}
-
-#recover {
-	float: right;
-	font-size: 10px;
-	width: 80px;
-	padding: 0 5px 0 5px;
-}
-
-loginForm3 {
-	padding: 30px 10px 20px 40px;	
-}
-
-#rightside li {
-	padding: 20px 10px 10px 10px;
-}
-
-div.footer {
-	margin-left: 450px;	
-}
-
-.footer li {
-	border-right: 1px solid black;
-	float: left;
-	height: auto;
-	list-style: none outside none;
-	margin: 30px 0 15px;
-	padding: 0 10px;
-	width: auto;
-}
-
-#bottom {
-	font-family: monospace;
-	font-size: 10px;
-	height: 15px;
-	margin-left: 200px;
-}
-
-form button {
-	padding:0;
-	border:none;
-	background:transparent;
-}
-
-td.image{
-	max-width: 200px;
-	min-height: 150px;
-	padding: 5px;
-}
-td.product{
-	text-align: justify;
-}
-
-td.productName{
-	padding: 0 5px 0 5px;
-	text-align: left;
-	font-family: fantasy;
-	font-size: 30px;
-	font-style: italic;
-	font-weight: bolder;
-}
-
-td.price{
-	font-family: monospace;
-	font-size: 30px;
-	font-style: italic;
-}
-
-table.catalog{
-	margin-top: 100px;
-	border-collapse: separate;
-	border-style: double;
-	border-spacing: 2px 4px;
-	width: 800px;
-	
-}
-
-div.select{
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-div.catalogLeft{
-	background:url(../images/mmz.png) 0 0 repeat ;
-	width: 100px;
-	float: left;
-}
-div.welcome{
-	text-align: center;
-	padding-top: 20px;
-}
-
-li.mainMenu{
-	
-	font-size: 25px;
-	font-family: monospace;
-	font-weight: bold;
-	margin: 10px 0 10px 100px;
-}
-li.submenu{
-	font-size: 20px;
-	font-family: cursive;
-	margin: 5px 0 5px 120px;
-}
-
-div.line{
-	margin: 50px 0 30px 0;
-}
-td.adminForm1{
-	min-width: 200px;
-	margin: 5px 5px 5px 0;
-	padding: 10px 10px 10px 0;
-}
-
-table.results{
-	align: center;
-	table-layout: auto;
-	overflow: auto;
-	width: 800px;
-	cellpadding: 5px;
-	cellspacing: 5px;
-	border: double;
-	border-spacing: 2px;
-}
-
-table.profile{
-	align: center;
-	width: 300px;
-	overflow: auto;
-	padding-left: 200px;
-}
-
-div.line-through{
-	text-decoration: line-through;
-	font-size: 12px;
-}
-
-div.halfwidth{
-	width: 70%;
-	font-size: 14px;
-	font-style: italic;
-	line-height: 20px;
-	margin: 10px 0 10px 0;
-	font-weight: normal;
-}
-
-div.order{
-	float: left;
-	width: 800 px;
-	margin: 100px 20px 0 120px;
-}
-div.label{
-	float: left;
-	width: 80px;
-	
-}
-ul.delivery-form, ul.payment-form{
-	text-align: left;
-	font-size: 18px;
-	list-style-type: none;
-	
-}
-
-li.delivery, li.payment{
-	border-bottom: 1px solid grey;
-	font-weight: bolder;
-}
 

@@ -5,14 +5,12 @@
 	<jsp:directive.page contentType="text/html; charset=UTF-8" />
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="../css/style.css" />
 <title>Registration</title>
 </head>
 <body>
 	
 	<header>
 		<jsp:directive.include file="/jspf/header.jspf" />
-		<jsp:directive.include file="/jspf/menu.jspf" />
 	</header>
 	<div class="span">
 		<jsp:directive.include file="/jspf/left.jspf" />
